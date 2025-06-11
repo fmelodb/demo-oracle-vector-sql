@@ -1,11 +1,12 @@
 
 set lines 150
 set pages 500
-col model_name format a20
-col algorithm format a20
+col model_name      format a20
+col algorithm       format a20
 col mining_function format a20
-col text_data format a50
-col chunk_text format a30
+col text_data       format a50
+col chunk_text      format a30
+
 
 -- Vector Data
 select vector('[0,0]') as my_vector;
