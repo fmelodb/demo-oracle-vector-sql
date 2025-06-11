@@ -6,6 +6,7 @@ col algorithm format a20
 col mining_function format a20
 col text_data format a50
 col chunk_text format a30
+set timing off
 
 -- Vector Data
 select vector('[0,0]') as my_vector;
