@@ -14,7 +14,7 @@ You can quickly get an image of Oracle Database 23ai Free (using Podman):
 podman run --name oracle32aifree -p 1521:1521 -e ORACLE_PWD=password container-registry.oracle.com/database/free:latest
 ```
 
-I am using the all_MiniLM_L12_v2.onnx model for generating embedding.
+I am using the all_MiniLM_L12_v2.onnx embedding model for generating vectors.
 
 The load_embedding_model_adb.sql is used for loading external files (embedding model and pdfs). It works if you are using Autonomous Database.
 
